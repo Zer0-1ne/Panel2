@@ -16,11 +16,17 @@ panel-backend/
 ├── api/
 
 │ └── users/
+
 │ └── auth.js
+
 ├── mysql/
+
 │ └── db.js
+
 ├── .env
+
 ├── package.json
+
 └── server.js
 
 ## 🛠️ Getting Started
