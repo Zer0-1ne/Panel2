@@ -9,25 +9,6 @@ This project aims to create a game server management panel with user registratio
 - Docker Integration
 - Cross-platform (Linux and Windows)
 
-## 📂 Project Structure
-
-panel-backend/
-├── api/
-
-│ └── users/
-
-│ └── auth.js
-
-├── mysql/
-
-│ └── db.js
-
-├── .env
-
-├── package.json
-
-└── server.js
-
 ## 🛠️ Getting Started
 
 ### Prerequisites
