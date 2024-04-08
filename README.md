@@ -12,7 +12,6 @@ This project aims to create a game server management panel with user registratio
 ## 📂 Project Structure
 
 panel-backend/
-
 ├── api/
 
 │ └── users/
