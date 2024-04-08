@@ -11,7 +11,6 @@ This project aims to create a game server management panel with user registratio
 
 ## 📂 Project Structure
 
-\`\`\`text
 panel-backend/
 ├── api/
 │ └── users/
@@ -21,7 +20,6 @@ panel-backend/
 ├── .env
 ├── package.json
 └── server.js
-\`\`\`
 
 ## 🛠️ Getting Started
 
@@ -35,33 +33,21 @@ panel-backend/
 
 1. **Clone the repository:**
 
-   \`\`\`bash
    git clone https://github.com/yourusername/panel-backend.git
-   \`\`\`
 
 2. **Navigate to the project directory:**
-
-   \`\`\`bash
    cd panel-backend
-   \`\`\`
 
 3. **Install dependencies:**
-
-   \`\`\`bash
    npm install
-   \`\`\`
 
 4. **Run the installation script:**
 
    - **Linux**:
-     \`\`\`bash
      ./install.sh
-     \`\`\`
 
    - **Windows** (Run as Administrator):
-     \`\`\`bash
      bash install.sh
-     \`\`\`
 
    The installation script performs the following tasks:
 
@@ -76,9 +62,7 @@ panel-backend/
 
 To start the server, run:
 
-\`\`\`bash
 npm start
-\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) in your web browser to access the panel.
 
