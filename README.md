@@ -1,14 +1,17 @@
-Game Server Management Panel
+# Game Server Management Panel
+
 This project aims to create a game server management panel with user registration and authentication features using Node.js, Express, MySQL, and Docker.
 
-Features
-User Registration
-User Login
-Docker Integration
-Cross-platform (Linux and Windows)
-Project Structure
-bash
-Copy code
+## 🚀 Features
+
+- User Registration
+- User Login
+- Docker Integration
+- Cross-platform (Linux and Windows)
+
+## 📂 Project Structure
+
+\`\`\`text
 panel-backend/
 ├── api/
 │ └── users/
@@ -18,55 +21,71 @@ panel-backend/
 ├── .env
 ├── package.json
 └── server.js
-Getting Started
-Prerequisites
-Node.js
-MySQL Server
-Docker (optional for Docker integration)
-Installation
-Clone the repository:
+\`\`\`
 
-bash
-Copy code
-git clone https://github.com/yourusername/panel-backend.git
-Navigate to the project directory:
+## 🛠️ Getting Started
 
-bash
-Copy code
-cd panel-backend
-Install dependencies:
+### Prerequisites
 
-bash
-Copy code
-npm install
-Run the installation script:
+- Node.js
+- MySQL Server
+- Docker (optional for Docker integration)
 
-Linux:
+### 📦 Installation
 
-bash
-Copy code
-./install.sh
-Windows (Run as Administrator):
+1. **Clone the repository:**
 
-bash
-Copy code
-bash install.sh
-The installation script performs the following tasks:
+   \`\`\`bash
+   git clone https://github.com/yourusername/panel-backend.git
+   \`\`\`
 
-Sets up the MySQL database and tables
-Updates the .env file with database credentials and port number
-Configuration
-Update the .env file with your MySQL database credentials and desired port number.
-Usage
+2. **Navigate to the project directory:**
+
+   \`\`\`bash
+   cd panel-backend
+   \`\`\`
+
+3. **Install dependencies:**
+
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+4. **Run the installation script:**
+
+   - **Linux**:
+     \`\`\`bash
+     ./install.sh
+     \`\`\`
+
+   - **Windows** (Run as Administrator):
+     \`\`\`bash
+     bash install.sh
+     \`\`\`
+
+   The installation script performs the following tasks:
+
+   - Sets up the MySQL database and tables
+   - Updates the `.env` file with database credentials and port number
+
+### ⚙️ Configuration
+
+- Update the `.env` file with your MySQL database credentials and desired port number.
+
+## 📝 Usage
+
 To start the server, run:
 
-bash
-Copy code
+\`\`\`bash
 npm start
-Open http://localhost:3000 in your web browser to access the panel.
+\`\`\`
 
-Contributing
+Open [http://localhost:3000](http://localhost:3000) in your web browser to access the panel.
+
+## 🤝 Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
